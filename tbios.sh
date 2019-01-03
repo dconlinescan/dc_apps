@@ -1,6 +1,6 @@
 #!bash
 #同步ios的ipa包！
-config_file='./tbIOS.list'
+config_file='./peiIOS.list'
 cat ${config_file} |while read line 
 do
 	name=`echo $line |sed 's/ //'`
